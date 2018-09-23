@@ -98,6 +98,7 @@ export interface IPayPalPaymentCompleteData {
     intent: string;
     orderID: string;
     payerID: string;
+    payer: any;
     paymentID: string;
     paymentToken: string;
     returnUrl: string;
